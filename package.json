@@ -1,0 +1,30 @@
+{
+  "name": "vanillaJSProjectSetup",
+  "version": "1.0.0",
+  "description": "It's a starter pack if you're planning on starting a vanillaJS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drowsjo/vanillaJSProjectSetup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drowsjo/vanillaJSProjectSetup/issues"
+  },
+  "homepage": "https://github.com/drowsjo/vanillaJSProjectSetup#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.30.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
